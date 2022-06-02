@@ -1,0 +1,45 @@
+==========================================
+Tue May 31 11:37:42 IDT 2022
+Delete log:
+instance Name: rere
+instance: us-central1-a
+instance Type e2-standard-2
+Internal IP:10.128.0.17
+External IP: 34.70.26.104
+==========================================
+==========================================
+Tue May 31 11:38:46 IDT 2022
+Delete log:
+instance Name: test111
+instance: us-central1-a
+instance Type e2-standard-2
+Internal IP:10.128.0.15
+External IP: 104.154.63.83
+==========================================
+==========================================
+Tue May 31 11:39:21 IDT 2022
+Delete log:
+instance Name: trtrtr
+instance: us-central1-b
+instance Type n1-standard-2
+Internal IP:10.128.0.16
+External IP: 35.202.128.221
+==========================================
+==========================================
+Tue May 31 11:40:01 IDT 2022
+Delete log:
+instance Name: test10
+instance: us-east1-b
+instance Type e2-standard-2
+Internal IP:10.142.0.19
+External IP: 34.148.240.221
+==========================================
+==========================================
+Tue May 31 11:41:06 IDT 2022
+Delete log:
+instance Name: testrr
+instance: us-east1-b
+instance Type e2-standard-2
+Internal IP:10.142.0.20
+External IP: 34.139.89.128
+==========================================

@@ -1,0 +1,10 @@
+us-east1-b
+us-central1-a
+us-central1-b
+us-west1-a
+us-west1-b
+us-west2-a
+us-west2-b
+europe-central2-a
+europe-central2-b
+europe-central2-c

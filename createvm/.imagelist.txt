@@ -1,0 +1,15 @@
+debian-cloud:::::::debian-10-buster-v20220519
+debian-cloud:::::::debian-11-bullseye-v20220519
+ubuntu-os-cloud::::ubuntu-1804-bionic-v20220505
+ubuntu-os-cloud::::ubuntu-2004-focal-v20220419
+ubuntu-os-cloud::::ubuntu-2110-impish-v20220505
+ubuntu-os-cloud::::ubuntu-2204-jammy-v20220506
+ubuntu-os-cloud::::ubuntu-pro-2204-jammy-v20220506
+centos-cloud:::::::centos-7-v20220519
+centos-cloud:::::::centos-stream-9-v20220519
+rhel-cloud:::::::::rhel-8-4-sap-v20220519
+rhel-cloud::::r::::rhel-9-v20220524
+rocky-linux-cloud::rocky-linux-8-v20220519
+fedora-cloud:::::::fedora-cloud-base-gcp-34-1-2-x86-64
+windows-cloud:::::::windows-server-2022-dc-v20220513
+windows-cloud:::::::windows-server-2019-dc-core-for-containers-v20220513

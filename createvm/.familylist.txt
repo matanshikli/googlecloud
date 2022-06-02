@@ -1,0 +1,5 @@
+e2-:Cost_optimized
+n1-:Firest_gen
+n2-:Flexible
+n2d-:largest_general
+t2d-:Limited

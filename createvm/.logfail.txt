@@ -1,0 +1,22 @@
+=======================================================
+Sat May 28 20:29:06 IDT 2022
+NO VM was set!!!!!
+instance name: test1
+machine-kind: 
+image project: 
+image name: 
+Zone: 
+You added: 
+NO VM was set!!!!!
+=======================================================
+=======================================================
+Tue May 31 11:35:42 IDT 2022
+NO VM was set!!!!!
+instance name: eeeee
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-10-buster-v20220519
+Zone: us-east1-b
+You added: 
+NO VM was set!!!!!
+=======================================================

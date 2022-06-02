@@ -1,0 +1,233 @@
+=======================================================
+Sat May 28 18:03:24 IDT 2022
+create log
+instance name: realtest1
+machine-kind: n1-standard-2
+image project: ubuntu-os-cloud
+image name: ubuntu-2004-focal-v20220419
+Zone: us-east1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: realtest1
+ZONE: us-east1-b
+MACHINE_TYPE: n1-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.142.0.17
+EXTERNAL_IP: 34.139.7.21
+STATUS: RUNNING
+=======================================================
+=======================================================
+Sat May 28 18:57:02 IDT 2022
+create log
+instance name: test1
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-10-buster-v20220519
+Zone: us-east1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test1
+ZONE: us-east1-b
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.142.0.18
+EXTERNAL_IP: 34.139.7.21
+STATUS: RUNNING
+=======================================================
+=======================================================
+Sat May 28 18:57:29 IDT 2022
+create log
+instance name: test2
+machine-kind: n1-standard-4
+image project: ubuntu-os-cloud
+image name: ubuntu-2004-focal-v20220419
+Zone: europe-central2-a
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test2
+ZONE: europe-central2-a
+MACHINE_TYPE: n1-standard-4
+PREEMPTIBLE: 
+INTERNAL_IP: 10.186.0.2
+EXTERNAL_IP: 34.118.9.176
+STATUS: RUNNING
+=======================================================
+=======================================================
+Sat May 28 20:29:26 IDT 2022
+create log
+instance name: 1
+machine-kind: n1-standard-2
+image project: debian-cloud
+image name: debian-10-buster-v20220519
+Zone: us-east1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+=======================================================
+=======================================================
+Sat May 28 20:29:50 IDT 2022
+create log
+instance name: test11
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-10-buster-v20220519
+Zone: us-central1-a
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test11
+ZONE: us-central1-a
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.12
+EXTERNAL_IP: 34.68.243.76
+STATUS: RUNNING
+=======================================================
+=======================================================
+Sat May 28 20:30:11 IDT 2022
+create log
+instance name: test12
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-10-buster-v20220519
+Zone: us-central1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test12
+ZONE: us-central1-b
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.13
+EXTERNAL_IP: 34.134.99.107
+STATUS: RUNNING
+=======================================================
+=======================================================
+Mon May 30 19:58:05 IDT 2022
+create log
+instance name: matan
+machine-kind: e2-standard-2
+image project: ubuntu-os-cloud
+image name: ubuntu-2004-focal-v20220419
+Zone: us-central1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: matan
+ZONE: us-central1-b
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.14
+EXTERNAL_IP: 34.68.243.76
+STATUS: RUNNING
+=======================================================
+=======================================================
+Tue May 31 11:21:15 IDT 2022
+create log
+instance name: test10
+machine-kind: e2-standard-2
+image project: ubuntu-os-cloud
+image name: ubuntu-2004-focal-v20220419
+Zone: us-east1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test10
+ZONE: us-east1-b
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.142.0.19
+EXTERNAL_IP: 34.148.240.221
+STATUS: RUNNING
+=======================================================
+=======================================================
+Tue May 31 11:22:58 IDT 2022
+create log
+instance name: test111
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-11-bullseye-v20220519
+Zone: us-central1-a
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: test111
+ZONE: us-central1-a
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.15
+EXTERNAL_IP: 104.154.63.83
+STATUS: RUNNING
+=======================================================
+=======================================================
+Tue May 31 11:24:26 IDT 2022
+create log
+instance name: trtrtr
+machine-kind: n1-standard-2
+image project: debian-cloud
+image name: debian-11-bullseye-v20220519
+Zone: us-central1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: trtrtr
+ZONE: us-central1-b
+MACHINE_TYPE: n1-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.16
+EXTERNAL_IP: 35.202.128.221
+STATUS: RUNNING
+=======================================================
+=======================================================
+Tue May 31 11:26:44 IDT 2022
+create log
+instance name: testrr
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-11-bullseye-v20220519
+Zone: us-east1-b
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: testrr
+ZONE: us-east1-b
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.142.0.20
+EXTERNAL_IP: 34.139.89.128
+STATUS: RUNNING
+=======================================================
+=======================================================
+Tue May 31 11:35:21 IDT 2022
+create log
+instance name: rere
+machine-kind: e2-standard-2
+image project: debian-cloud
+image name: debian-11-bullseye-v20220519
+Zone: us-central1-a
+You added: 
+------------------------------
+gcloud log
+------------------------------
+NAME: rere
+ZONE: us-central1-a
+MACHINE_TYPE: e2-standard-2
+PREEMPTIBLE: 
+INTERNAL_IP: 10.128.0.17
+EXTERNAL_IP: 34.70.26.104
+STATUS: RUNNING
+=======================================================
