@@ -6,7 +6,7 @@ Log_file_fail=$PWD/createvm/.logfail.txt
 familylist=$PWD/createvm/.familylist.txt
 imagelist=$PWD/createvm/.imagelist.txt
     #Switch lines if you want full Zonelist
-    #zonelist=/Users/matanshikli/Desktop/createvm/.fullzonelist.txt
+    zonelist_ex=$PWD/createvm/.fullzonelist.txt
     zonelist=$PWD/createvm/.zonelist.txt
 space="======================================================="
 
@@ -31,7 +31,7 @@ sendlog () {
     echo $space
 
 # select from a file + filter the output for the only start of the output before :
-      select EC_family in $(cat $familylist)
+      select EC_family in $(cat "$familylist")
       do 
       EC_family=${EC_family%%:*}
       break 
@@ -80,11 +80,30 @@ sendlog () {
     echo "select instance Zone"
     echo $space
 
-      select EC_zone in $(cat $zonelist)
+echo "select Zone list"
+select zone_dec in short extended
+      do
+      break 
+      done 
+
+
+
+if [ "$zone_dec" == "extended" ]; then
+
+select EC_zone in $(cat $zonelist_ex)
       do
       EC_zone=${EC_zone##*:} 
       break 
       done
+else
+select EC_zone in $(cat $zonelist)
+      do
+      EC_zone=${EC_zone##*:} 
+      break 
+      done
+fi
+   
+      
 
   echo $space
 
