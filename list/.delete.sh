@@ -13,7 +13,7 @@
 sendlog () {
 echo $space
 date
-echo "Delete log:"
+echo "Delete log"
 echo "instance Name:" $Name
 echo "instance:" $Zone
 echo "instance Type" $MACHINE_TYPE

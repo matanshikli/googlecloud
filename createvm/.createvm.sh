@@ -5,7 +5,6 @@ Log_file=$PWD/createvm/.log.txt
 Log_file_fail=$PWD/createvm/.logfail.txt
 familylist=$PWD/createvm/.familylist.txt
 imagelist=$PWD/createvm/.imagelist.txt
-    #Switch lines if you want full Zonelist
     zonelist_ex=$PWD/createvm/.fullzonelist.txt
     zonelist=$PWD/createvm/.zonelist.txt
 space="======================================================="
@@ -26,9 +25,54 @@ sendlog () {
 #taking details from the user about the VM
   read -p "Instance Name: " EC2_name
 
+   
     echo $space
-    echo "select instance machine family (Price = n1<e2<t2d<n2d<n2)"
+    echo "Do you want to create Default or custom instance ?)"
     echo $space
+
+#Give the option for default VM
+
+    select DEF_OR_CUS in default custom
+      do 
+      break 
+      done 
+
+      if [ "$DEF_OR_CUS" == "default" ]; then
+       echo $space
+       echo "Do you sure you want to create the default instance :"  $EC2_name
+       echo $space
+
+       select yesorno_def in No Yes
+        do 
+        if [ "$yesorno_def" == "Yes" ]; then
+            EC_kind=n1-standard-1
+          EC_zone=us-central1-a 
+           echo "createing default instance" >>$Log_file
+     
+          echo "instance name: $EC2_name" >>$Log_file
+     
+           gcloud compute instances create $EC2_name \
+                          --machine-type $EC_kind \
+                          --zone $EC_zone | tee -a $Log_file
+     
+     
+                           echo "createing default instance" >>$Log_file
+         echo $space >>$Log_file
+         else 
+         echo "abording"
+         fi
+        break 
+        done 
+  
+  
+
+      
+      else 
+
+ echo $space
+    echo "select instance machine family"
+    echo $space
+
 
 # select from a file + filter the output for the only start of the output before :
       select EC_family in $(cat "$familylist")
@@ -141,7 +185,7 @@ fi
                echo "------------------------------">>$Log_file
              
 
-              #The commend!!!!
+              #The command!
 
                     gcloud compute instances create $EC2_name \
                      --machine-type $EC_kind \
@@ -163,4 +207,4 @@ fi
               exit
           fi
 
- 
+ fi
